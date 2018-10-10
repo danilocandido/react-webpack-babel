@@ -2,12 +2,14 @@
 
 import React from 'react'
 
-const App = React.createClass({
-  render: function() {
+class App extends React.Component {
+  render () {
     return (
-      <div>Aplicação</div>
+      <div className='container' >
+        My App
+      </div>
     )
   }
-})
+}
 
 export default App
